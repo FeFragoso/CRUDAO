@@ -1,0 +1,209 @@
+CRITICAL - 2023-12-04 00:02:46 --> Undefined variable $OBJETO_COLUNA_DESCRICAO
+in APPPATH\Views\modulos\objetos\formulario.php on line 105.
+ 1 APPPATH\Views\modulos\objetos\formulario.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $OBJETO_COLUNA_DESCRICAO', 'C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modulos/objetos/formulario', [], true)
+ 5 APPPATH\Controllers\Home.php(24): view('modulos/objetos/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 00:04:45 --> Undefined variable $data
+in APPPATH\Views\modulos\objetos\formulario.php on line 105.
+ 1 APPPATH\Views\modulos\objetos\formulario.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modulos/objetos/formulario', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('modulos/objetos/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 00:05:16 --> Undefined variable $data
+in APPPATH\Views\modulos\objetos\formulario.php on line 105.
+ 1 APPPATH\Views\modulos\objetos\formulario.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php', 105)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\formulario.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modulos/objetos/formulario', [], true)
+ 5 APPPATH\Controllers\Home.php(26): view('modulos/objetos/formulario', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 00:52:41 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('odbc', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(83): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 00:54:47 --> Class "CodeIgniter\Database\odbc\Connection" not found
+in SYSTEMPATH\Database\Database.php on line 137.
+ 1 SYSTEMPATH\Database\Database.php(55): CodeIgniter\Database\Database->initDriver('odbc', 'Connection', [...])
+ 2 SYSTEMPATH\Database\Config.php(83): CodeIgniter\Database\Database->load([...], 'default')
+ 3 SYSTEMPATH\Model.php(151): CodeIgniter\Database\Config::connect('default')
+ 4 APPPATH\Controllers\Home.php(14): CodeIgniter\Model->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\Home->__construct()
+ 6 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+ERROR - 2023-12-04 00:55:59 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\app\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\...')
+#11 {main}
+CRITICAL - 2023-12-04 00:55:59 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "SISTEMA_GERADOR"."dbo"."OBJETOS"
+WHERE "OBJETOS"."deleted_at" IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+ERROR - 2023-12-04 00:59:36 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\app\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\...')
+#11 {main}
+CRITICAL - 2023-12-04 00:59:36 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "SISTEMA_GERADOR"."dbo"."OBJETOS"
+WHERE "OBJETOS"."deleted_at" IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+ERROR - 2023-12-04 00:59:38 --> Error connecting to the database: Error: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure() in C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Connection.php:128
+Stack trace:
+#0 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(392): CodeIgniter\Database\SQLSRV\Connection->connect(false)
+#1 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM "...', Array, false)
+#3 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+#4 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\app\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(942): App\Controllers\Home->index()
+#7 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\felip\OneDrive\Desktop\CRUDAO\Servidor Aplicacao\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\...')
+#11 {main}
+CRITICAL - 2023-12-04 00:59:38 --> Unable to connect to the database.
+Main connection [sqlsrv]: Call to undefined function CodeIgniter\Database\SQLSRV\sqlsrv_configure()
+in SYSTEMPATH\Database\BaseConnection.php on line 428.
+ 1 SYSTEMPATH\Database\BaseConnection.php(575): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "SISTEMA_GERADOR"."dbo"."OBJETOS"
+WHERE "OBJETOS"."deleted_at" IS NULL', [], false)
+ 3 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 4 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+ERROR - 2023-12-04 01:03:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'deleted_at'.
+CRITICAL - 2023-12-04 01:03:17 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'deleted_at'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "SISTEMA_GERADOR"."dbo"."OBJETOS"
+WHERE "OBJETOS"."deleted_at" IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+ERROR - 2023-12-04 01:03:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'deleted_at'.
+CRITICAL - 2023-12-04 01:03:38 --> [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'deleted_at'.
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\SQLSRV\Builder.php(610): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM "SISTEMA_GERADOR"."dbo"."OBJETOS"
+WHERE "OBJETOS"."deleted_at" IS NULL', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\SQLSRV\Builder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Home.php(31): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 01:11:35 --> Constant expression contains invalid operations
+in APPPATH\Controllers\Home.php on line 11.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-12-04 01:18:28 --> syntax error, unexpected variable "$campos"
+in APPPATH\Controllers\Home.php on line 20.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(291): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(269): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(900): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 01:21:25 --> Cannot use object of type stdClass as array
+in APPPATH\Views\modulos\objetos\formulario.php on line 109.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modulos/objetos/formulario', [], true)
+ 4 APPPATH\Controllers\Home.php(36): view('modulos/objetos/formulario', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
+CRITICAL - 2023-12-04 01:42:41 --> Undefined variable $campos
+in APPPATH\Views\modulos\objetos\edicao.php on line 93.
+ 1 APPPATH\Views\modulos\objetos\edicao.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $campos', 'C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\edicao.php', 93)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\app\\Views\\modulos\\objetos\\edicao.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1190): CodeIgniter\View\View->render('modulos/objetos/edicao', [], true)
+ 5 APPPATH\Controllers\Objeto.php(49): view('modulos/objetos/edicao')
+ 6 SYSTEMPATH\CodeIgniter.php(942): App\Controllers\Objeto->criacao()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Objeto))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\felip\\OneDrive\\Desktop\\CRUDAO\\Servidor Aplicacao\\public\\index.php')
